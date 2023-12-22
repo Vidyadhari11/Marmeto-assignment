@@ -56,7 +56,6 @@ body {
     justify-content: center;
     width: 90%;
     margin-left: 20px
-    
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -124,6 +123,7 @@ body {
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    height: 30px;
 }
 
 .badge {
@@ -148,16 +148,19 @@ body {
     .title {
         font-size: 17px;
         overflow: hidden;
+        width: 150px;
+        height: 20px;
     }
 }
 
 @media (min-width:1025px) {
     .title {
         font-size: 12px;
-        text-overflow: hidden;
-        width: 160px;
-
+        overflow: hidden;
+        width: 110px;
+        height: 16px;
     }
+
 }
 
 .discount-price-container {
