@@ -138,10 +138,13 @@ body {
 }
 
 .title {
-
+    width: 200px;
+    height: 20px;
+    margin-top: 1px;
     font-size: 20px;
     font-weight: bold;
     margin-right: 27px;
+    overflow: hidden;
 }
 
 @media (min-width:768px) and (max-width:1024px) {
@@ -157,10 +160,26 @@ body {
     .title {
         font-size: 12px;
         overflow: hidden;
-        width: 110px;
+        width: 120px;
         height: 16px;
     }
 
+}
+
+.vendor {
+    font-size: 17px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .vendor {
+        font-size: 15px;
+    }
+}
+
+@media (min-width:1025px) {
+    .vendor {
+        font-size: 13px;
+    }
 }
 
 .discount-price-container {
