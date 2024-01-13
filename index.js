@@ -1,11 +1,11 @@
 function showProducts(category) {
-    console.log(category)
-    // Hide all product cards
+
+    
     document.getElementById('Men').style.display = 'none';
     document.getElementById('Women').style.display = 'none';
     document.getElementById('Kids').style.display = 'none';
 
-    // Show the selected category product cards
+
     document.getElementById(category).style.display = 'flex';
     if (category === "Men") {
         document.getElementById("men").classList.add("active-tab")
@@ -94,7 +94,6 @@ function createProductCard(containerId, product) {
 }
 
 
-// Fetch products from API (replace with actual API call)
 fetch('https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json')
     .then(response => response.json())
     .then(data => {
