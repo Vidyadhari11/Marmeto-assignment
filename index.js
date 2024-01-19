@@ -105,7 +105,7 @@ fetch('https://cdn.shopify.com/s/files/1/0564/3685/0790/files/multiProduct.json'
 
             const containerId = i.category_name
             const product = i.category_products
-            console.log(containerId, product)
+            
             createProductCard(containerId, product)
         }
 
